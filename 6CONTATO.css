@@ -2,13 +2,11 @@
   font-family: "Ubuntu", sans-serif;
   margin: 0;
   padding: 0;
-  /* background-color:rgba(65, 148, 136, 1); */
 }
 
 header {
   display: flex;
   justify-content: space-between;
-  /* border-bottom: 5px solid rgba(65, 148, 136, 1); */
   background-color: rgba(65, 148, 136, 1);
   align-items: center;
 }
@@ -75,16 +73,17 @@ button {
   background-color: rgba(65, 148, 136, 1);
   color: #fff;
   cursor: pointer;
-  /* margin-top: 50px; */
   border-radius: 62px;
   width: 289px;
   height: 51px;
   font-size: 20px;
 }
 
-@media only screen and (max-width: 768px) {
+#botao2 {
+  margin-top: 10px;
 }
-@media only screen and (max-width: 480px) {
+
+@media only screen and (max-width: 780px) {
   #logoENome {
     height: auto;
     width: auto;
@@ -95,6 +94,7 @@ button {
   }
   header ul {
     margin-right: 22px;
+    margin-left: -122px;
     margin-top: 10px;
     margin-bottom: 10px;
     font-size: 10px;
