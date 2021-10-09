@@ -11,5 +11,12 @@
 			"isMultiSession": true,
 			"enableTableSync": true
 		}
-	]
+	],
+	"lastPrograms": [
+		{
+			"label": "tab",
+			"description": "<nil>"
+		}
+	],
+	"lastProgramExecuted": "tab"
 }
