@@ -1,0 +1,304 @@
+* {
+  font-family: "Ubuntu", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container1{
+  display: flex;
+  justify-content: center;
+}
+
+.postagens{
+  align-items: center;
+  position: relative;
+  max-width: 1055px;
+  height: 1965px;
+}
+
+#postagens h1{
+  color: #FF4081;
+  text-align: center;
+  font-style: normal;
+  font-size: 50px;
+  margin-top: 111px;
+}
+
+h5{
+  color: #9D9D9D;
+  text-align: center;
+  font-style: normal;
+  font-size: 18px;
+  font-weight:normal;
+}
+
+.imagempost{
+  background-color: #C4C4C4;
+  position: relative;
+  max-width: 1055px;
+  height: 465px;
+  margin-left: auto;
+  margin-top: 74px;
+}
+
+#blocotxt{
+  margin-top: 64px;
+}
+
+.blocotxt p{
+  position: relative;
+  margin-left: auto;
+  margin-left: auto;
+  width: 100%;
+  font-size: 18px;;
+}
+
+h2{
+  color: #419488;
+  font-style: normal;
+  font-size: 26px;
+  font-weight:normal;
+  margin-left: 0px;;
+}
+
+.nossoscursos{
+  background-color: #F7F7F7;
+  width:100%;
+  height:899px;
+  position: relative;
+}
+
+.nossoscursos h1{
+  color: #FF4081;
+  text-align: center;
+  font-style: normal;
+  font-size: 50px;
+  margin-top: 79px; 
+  font-weight: 500;
+}
+
+.opcoescursos{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 101px;
+  align-items: center;
+  margin-left: 128px;
+  margin-right: 129px;
+  margin-bottom:0px;
+}
+
+.cursos{
+  width: 344px;
+  height: 563.91px;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top: 0px;
+  text-align: center;
+  padding: auto;
+  margin-bottom:0px;
+}
+
+.imagemcurso{
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}
+
+.imagemcurso-img{
+  max-width:288px;
+  max-height:279.06px;
+  display:block;
+  text-align: center;
+  position:relative;
+}
+
+h3{
+  color: #FF4081;
+  font-size: 25px;
+  margin-top: 52.1px;
+}
+
+.cursos p{
+  margin-top: 28.32px;
+  font-size: 17px;
+}
+
+.btncomecaragora{
+
+  border: none;
+  background-color: #FF4081;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 62px;
+  width: 233px;
+  height: 51px;
+  font-size: 20px;
+  margin-top: 32.02px;
+}
+
+@media only screen and (max-width: 1300px) {
+
+  .postagens{
+    align-items: center;
+    position: relative;
+    width: 90%;
+    height: auto;
+  }
+
+
+  .imagempost{
+    position: relative;
+    max-width: 100% fit-content;
+    height: 30% fit-content;
+    margin-left: 0px;
+    margin-top: 34px;
+    
+  }
+
+  .nossoscursos{
+    width:100% fit-content;
+    height: auto;
+    position: relative;
+  }
+
+  .nossoscursos h1{
+    margin-top: 10px; 
+    font-weight: 500;
+  }
+
+  .opcoescursos{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: auto;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:0px;
+  }
+
+  .cursos{
+    width: auto;
+    height: auto;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 15px;
+    text-align: center;
+    padding: auto;
+    margin-bottom:0px;
+    
+  }
+
+  .imagemcurso-img{
+      max-width:288px;
+      max-height:279.06px;
+      display:block;
+      text-align: center;
+      position:relative;
+  }
+
+  .btncomecaragora{
+    width: auto;
+    height: auto;
+    font-size: 15px;
+    padding: 5%;
+    margin-top: 10px;
+    margin-bottom: 15px;
+  }
+
+}
+
+@media only screen and (max-width: 900px){
+
+  .imagemcurso-img{
+    max-width:188px;
+    max-height:179.06px;
+    display:block;
+    text-align: center;
+    position:relative;
+  }
+
+}
+
+@media only screen and (max-width: 600px){
+
+  .imagemcurso-img{
+    max-width:100px;
+    max-height:100px;
+    display:block;
+    text-align: center;
+    position:relative;
+  }
+
+  #postagens h1,.nossoscursos h1{
+    font-size: 45px;
+  }
+
+  .blocotxt p, h5{
+    font-size: 16px;;
+  }
+
+  h2{
+    font-size: 23px;
+  }
+
+  h3{
+    font-size: 22px;
+  }
+  
+  .cursos p{
+    font-size: 15px;
+  }
+  
+  .btncomecaragora{
+     font-size: 14px;
+
+  }
+
+}
+
+@media only screen and (max-width: 450px){
+
+  #postagens h1{
+    font-size: 40px;
+    margin-top: 60px;
+  }
+  
+  .imagempost{
+    position: relative;
+    max-width: 100%;
+    height: 5% fit-content;
+    max-height: 250px;
+    margin-left: 0px;
+    margin-top: 34px;
+  }
+
+  .blocotxt p{
+    font-size: 13px;;
+  }
+
+  h2{
+    font-size: 20px;
+  }
+   
+  .opcoescursos{
+    display: block;
+  }
+ 
+  .nossoscursos h1{
+    font-size: 40px;
+  }
+
+  h3{
+  font-size: 20px;
+  }
+
+  .cursos p{
+    font-size: 15px;
+  }
+
+  .btncomecaragora{
+    padding: 3%;
+
+  }
+
+}
