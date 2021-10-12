@@ -177,7 +177,7 @@ h3{
   }
 
   .cursos{
-    width: auto;
+    width: 400px;
     height: auto;
     margin-left:auto;
     margin-right:auto;
@@ -185,7 +185,7 @@ h3{
     text-align: center;
     padding: auto;
     margin-bottom:0px;
-    
+  
   }
 
   .imagemcurso-img{
@@ -217,6 +217,10 @@ h3{
     position:relative;
   }
 
+  .cursos{
+    width: 200px;
+  }
+
 }
 
 @media only screen and (max-width: 600px){
@@ -243,6 +247,10 @@ h3{
 
   h3{
     font-size: 22px;
+  }
+
+  .cursos{
+    width: 170px;
   }
   
   .cursos p{
@@ -289,10 +297,13 @@ h3{
 
   h3{
   font-size: 20px;
+  margin-top: 5px;
   }
 
   .cursos p{
     font-size: 15px;
+    margin-left: 5px;
+    margin-top: 5px;
   }
 
   .btncomecaragora{
