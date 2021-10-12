@@ -259,13 +259,14 @@ a {
     position: absolute;
     width: 400px;
     height: 80px;
-    right: 180px;
+    right: 140px;
     top: 1910px;
     font-style: normal;
     font-weight: 300;
     font-size: 15px;
     line-height: 20px;
 }
+
 
 footer {
     display: flex;
