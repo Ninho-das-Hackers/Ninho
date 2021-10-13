@@ -209,8 +209,6 @@ main{
     margin-left: auto;
     position:absolute;
     margin-bottom: 330px;
-    width: 230px; 
-    height: 139p;
 }
 
 #rec01,#rec02,#rec03{
@@ -360,7 +358,6 @@ main{
         justify-content: space-evenly;
         align-content:center;
         width: 100%;
-        margin-left: 30px;
     }
 
     #terceirotitulo{
@@ -604,7 +601,7 @@ main{
     } 
 
     #terceirotitulo{
-        margin-top: 50px;
+         margin-top: 50px;
         margin-left: 0px;
         font-size: 30px;
         line-height: 30px;

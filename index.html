@@ -18,7 +18,7 @@
 
 <body>
 
-  <header>
+  <header role="banner">
     <div id="logoENome">
       <div id="logo">
         <a href="index.html"><img id="logo1" src="imagens/logo-header.png" alt="logo"></a>
@@ -33,144 +33,161 @@
       </ul>
     </div>
   </header>
-  <main>
+  <main role="main">
 
-    <div id="inicio">
-      <div>
-
-        <h1 id="titulo">Educação Financeira é tudo de bom</h1>
-
-        <h6 id="subtitulo">Vem comigo que te mostro por onde começar</h6>
-
-        <a href="contato.html"><button class="primeirobotao">quero saber mais</button></a>
-      </div>
-
-      <div>
-        <img src="imagens/ilustra-banner.png" id="ilustra-banner"></img>
-      </div>
-    </div>
-
-    <div id="nossoscusosini" class="nossoscursos">
-      <br>
-      <div id="opcoescursos" class="opcoescursos">
-        <div id="investinic" class="cursos">
-          <div id="imageminvest" class="imagemcurso">
-            <img src="imagens/ilustra-poupando.png" class="imagemcurso-img" alt="Investimento"></img>
-          </div>
-          <h3>Investimento para iniciantes</h3>
-          <p>Quer começar a investir? Saiba que há opções melhores que a poupança, com um rendimento muito maior e tão seguro e conservador quanto.
-          </p>
-          <a href="curso_invest.html"><button class="btncomecaragora">começar agora</button></a>
+    <!--Primeira section referente ao incio da página-->
+    <section>
+      <div id="inicio">
+        <div>
+          <h1 id="titulo">Educação Financeira é tudo de bom</h1>
+          <h6 id="subtitulo">Vem comigo que te mostro por onde começar</h6>
+          <a href="contato.html"><button class="primeirobotao">quero saber mais</button></a>
         </div>
-        <div id="pouprend" class="cursos">
-          <div id="imageminvest" class="imagemcurso">
-            <img src="imagens/ilustra-investimento.png" class="imagemcurso-img" alt="Poupando"></img>
-          </div>
-          <h3>Poupando e Rendendo</h3>
-          <p>Dar ao dinheiro um destino e ter um objetivo, facilita e motiva a juntar ainda mais. Saiba como fazer para poupar e como fazer render o seu dinheiro.
-          </p>
-          <a href="curso_poup.html"><button class="btncomecaragora">começar agora</button></a>
-        </div>
-        <div id="indfinan" class="cursos">
-          <div id="imageminvest" class="imagemcurso">
-            <img src="imagens/ilustra-independencia.png" class="imagemcurso-img" alt="Independencia"></img>
-          </div>
-          <h3>Independencia Financeira</h3>
-          <p>É possível conquistar a independência financeira mesmo ganhando pouco. A verdadeira riqueza está na sabedoria de aplicar o dinheiro corretamente!          </p>
-          <a href="curso_indfin.html"><button class="btncomecaragora">começar agora</button></a>
+        <div>
+          <img src="imagens/ilustra-banner.png" id="ilustra-banner"></img>
         </div>
       </div>
-    </div>
+    </section>
 
-    <div id="comentarios" clas="comentarios">
-
-      <div id=titulosobre >
-        <div class="titulosobre">
-          <h1 id="segundotitulo">O QUE FALAM SOBRE NÓS</h1>
-        </div>
-        <div></div>
-      </div>
-
-      <div id="comentariocont" class="comentariocont">
-
-        <div id="bloco1coment" class="blocoscoment">
-          <div id="comentario1" class="comentariocl">
-            <img src="imagens/icon-wally.png" id="bola1" class="imagemcoment" alt="depoimento"></img>
-            <p id="lado1"> ”Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-              laudantium,
-              totam rem aperiam.”<br>
-              Wally, 25
+    <!--Segunda section referente as opções de cursos-->
+    <section>
+      <div id="nossoscusosini" class="nossoscursos">
+        <br>
+        <div id="opcoescursos" class="opcoescursos">
+          <div id="investinic" class="cursos">
+            <div id="imageminvest" class="imagemcurso">
+              <img src="imagens/ilustra-poupando.png" class="imagemcurso-img" alt="Curso Investimento"></img>
+            </div>
+            <h3>Investimento para iniciantes</h3>
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
             </p>
+            <a href="curso_invest.html"><button class="btncomecaragora">começar agora</button></a>
           </div>
-          <div id="comentario2" class="comentariocl">
-            <img src="imagens/icon-whoopi.png" id="bola3" class="imagemcoment" alt="depoimento"></img>
-            <p id="lado3"> ”Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-              laudantium, totam rem aperiam.”<br>
-              Whoopi Goldberg, 37
+          <div id="pouprend" class="cursos">
+            <div id="imageminvest" class="imagemcurso">
+              <img src="imagens/ilustra-investimento.png" class="imagemcurso-img" alt="Curso Poupando e Rendendo"></img>
+            </div>
+            <h3>Poupando e Rendendo</h3>
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
             </p>
+            <a href="curso_poup.html"><button class="btncomecaragora">começar agora</button></a>
           </div>
-        </div>
-
-        <div id="bloco2coment" class="blocoscoment">
-          <div id="comentario3" class="comentariocl">
-            <img src="imagens/icon-jaden.png" id="bola2" class="imagemcoment" alt="depoimento"></img>
-            <p id="lado2"> ”Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-              laudantium, totam rem aperiam.”<br>
-              Jaden Smith, 23
+          <div id="indfinan" class="cursos">
+            <div id="imageminvest" class="imagemcurso">
+              <img src="imagens/ilustra-independencia.png" class="imagemcurso-img" alt="Curso Independencia Financeira"></img>
+            </div>
+            <h3>Independencia Financeira</h3>
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
             </p>
-          </div>
-          <div id="comentario4" class="comentariocl">
-            <img src="imagens/icon-jane.png" id="bola4" class="imagemcoment" alt="depoimento"></img>
-            <p id="lado4"> ”Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-              laudantium, totam rem aperiam.”<br>
-              Janes Joplin, 29
-            </p>
+            <a href="curso_indfin.html"><button class="btncomecaragora">começar agora</button></a>
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
-    <div id="conteudo">
+    <!--Terceira section referente aos comentários de usuários-->
+    <section>
+      <div id="comentarios" clas="comentarios">
 
-      <div id="blococonteudo">
-        <div class="containerconteudo">
-          <h1 id="terceirotitulo">MAIS CONTEÚDO PARA VOCÊ</h1>
+        <div id=titulosobre>
+          <div class="titulosobre">
+            <h1 id="segundotitulo">O QUE FALAM SOBRE NÓS</h1>
+          </div>
+          <div></div>
         </div>
-        <div></div>
-        <div></div>
+
+        <div id="comentariocont" class="comentariocont">
+          <div id="bloco1coment" class="blocoscoment">
+            <div id="comentario1" class="comentariocl">
+              <img src="imagens/icon-wally.png" id="bola1" class="imagemcoment" alt="depoimento"></img>
+              <p id="lado1"> ”Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                laudantium,
+                totam rem aperiam.”<br>
+                Wally, 25
+              </p>
+            </div>
+            <div id="comentario2" class="comentariocl">
+              <img src="imagens/icon-whoopi.png" id="bola3" class="imagemcoment" alt="depoimento"></img>
+              <p id="lado3"> ”Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                laudantium, totam rem aperiam.”<br>
+                Whoopi Goldberg, 37
+              </p>
+            </div>
+          </div>
+
+          <div id="bloco2coment" class="blocoscoment">
+            <div id="comentario3" class="comentariocl">
+              <img src="imagens/icon-jaden.png" id="bola2" class="imagemcoment" alt="depoimento"></img>
+              <p id="lado2"> ”Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                laudantium, totam rem aperiam.”<br>
+                Jaden Smith, 23
+              </p>
+            </div>
+            <div id="comentario4" class="comentariocl">
+              <img src="imagens/icon-jane.png" id="bola4" class="imagemcoment" alt="depoimento"></img>
+              <p id="lado4"> ”Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                laudantium, totam rem aperiam.”<br>
+                Janes Joplin, 29
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
+    </section>
+    
+    <!--Quarta section referente aos posts do blog-->
+    <section>
+      <div id="conteudo">
 
-      <div id="containerconteudo" class="containerconteudo">
-        <div class="colunasdepo">
-          <img src="imagens/comecar-a-investir.jpg" id="rec1" class="imagemcurso" alt="depoimento"></img>
-          <a href="post.html"><h4 id="subtitbloc41" class="subtitbloc4">Por que começar a investir hoje?</h4></a>
-          <p id="rec01">
-            Está aqui para descobrir como começar a investir? Que bom! Então, segue esse post e descubra mais.</p>
+        <div id="blococonteudo">
+          <div class="containerconteudo">
+            <h1 id="terceirotitulo">MAIS CONTEÚDO PARA VOCÊ</h1>
+          </div>
+          <div></div>
+          <div></div>
         </div>
 
-        <div class="colunasdepo">
-          <img src="imagens/consumo-consciente.jpg" id="rec2" class="imagemcurso" alt="depoimento"></img>
-        <a href="post.html"><h4 id="subtitbloc42" class="subtitbloc4">O que é consumo consciente?</h4></a> 
-          <p id="rec02">
-            O consumo consciente está na moda, mas você sabe o que significa e, principalmente, como colocar em prática esse conceito tão importante? A gente te ajuda!</p>
+        <div id="containerconteudo" class="containerconteudo">
+          <div class="colunasdepo">
+            <img src="imagens/Rectangle 16.png" id="rec1" class="imagemcurso" alt="depoimento"></img>
+            <a href="post.html">
+              <h4 id="subtitbloc41" class="subtitbloc4">Itaque earum rerum</h4>
+            </a>
+            <p id="rec01">
+              hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis
+              doloribus asperiores repellat.</p>
+          </div>
+
+          <div class="colunasdepo">
+            <img src="imagens/Rectangle 16.png" id="rec2" class="imagemcurso" alt="depoimento"></img>
+            <a href="post.html">
+              <h4 id="subtitbloc42" class="subtitbloc4">Itaque earum rerum</h4>
+            </a>
+            <p id="rec02">
+              hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis
+              doloribus asperiores repellat.</p>
+          </div>
+
+          <div class="colunasdepo">
+            <img src="imagens/Rectangle 16.png" id="rec3" class="imagemcurso" alt="depoimento"></img>
+            <a href="post.html">
+              <h4 id="subtitbloc43" class="subtitbloc4">Itaque earum rerum</h4>
+            </a>
+            <p id="rec03">
+              hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis
+              doloribus asperiores repellat.</p>
+          </div>
         </div>
 
-        <div class="colunasdepo">
-          <img src="imagens/diagnostico-financeiro.jpg" id="rec3" class="imagemcurso" alt="depoimento"></img>
-          <a href="post.html"><h4 id="subtitbloc43" class="subtitbloc4">Passo a passo para fazer <br> seu diagnóstico financeiro</h4></a>
-          <p id="rec03">
-            Finanças em dia, mente tranquila e sonhos mais próximos. Um bom diagnóstico financeiro pode ajudar a conquistar esses objetivos. Quer saber como? Confira agora!</p>
+        <div id="botao3">
+          <a href="blog.html"><button id="ultimobotao" class="ultimobotao">ver todos os posts</button></a>
         </div>
+
       </div>
-
-      <div id="botao3">
-        <a href="blog.html"><button id="ultimobotao" class="ultimobotao">ver todos os posts</button></a>
-      </div>
-
-    </div>
+    </section>
 
   </main>
-
+  <!--Trecho referente a acessibilidade em Libras-->
   <div vw class="enabled">
     <div vw-access-button class="active"></div>
     <div vw-plugin-wrapper>
@@ -181,7 +198,7 @@
   <script>
     new window.VLibras.Widget('https://vlibras.gov.br/app');
   </script>
-
+  <!---->
   <footer>
 
     <div id="logof">
