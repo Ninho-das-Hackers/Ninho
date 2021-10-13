@@ -16,13 +16,13 @@
 </head>
 
 <body>
-  <header>
+
+  <header role="banner">
     <div id="logoENome" class="logoENome">
       <div id="logo">
         <a href="index.html"><img id="logo1" src="imagens/logo-header.png" alt="logo" /></a>
       </div>
     </div>
-
     <div id="navbar" class="navbar">
       <ul>
         <li><a href="cursos.html">CURSOS</a></li>
@@ -31,15 +31,17 @@
       </ul>
     </div>
   </header>
-  <main>
-    <div id="container1" class="container1">
-      <div id="postagens" class="postagens">
+
+  <main role="main">
+    <!-- Primeira section referente a postagem principal da página -->
+    <section id="container1" class="container">
+      <div id="postagem1" class="postagens" role="article">
         <h1>On the other hand, we denounce</h1>
         <h5>27 de dezembro de 2020</h5>
 
-        <div id="imagempost" class="imagempost"></div>
+        <div id="imagempost1" class="imagempost"></div>
 
-        <div id="blocotxt" class="blocotxt">
+        <div id="blocotxt1" class="blocotxt">
           <p>
             On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and
             demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain
@@ -103,45 +105,47 @@
           </p><br><br>
         </div>
       </div>
-    </div>
-
-    <div id="nossoscusos" class="nossoscursos">
-      <br>
-      <h1>Conheça nossos cursos</h1>
-      <div id="opcoescursos" class="opcoescursos">
-        <div id="investinic" class="cursos">
-          <div id="imageminvest" class="imagemcurso">
-            <img src="imagens/ilustra-poupando.png" class="imagemcurso-img" alt="Investimento"></img>
+    </section>
+    <!-- Segunda section referente as opções que redirecionam para as páginas de cursos -->
+    <section id="container2" class="container" role="option">
+      <div id="nossoscursos1" class="nossoscursos">
+        <br>
+        <h1>Conheça nossos cursos</h1>
+        <div id="opcoescursos1" class="opcoescursos">
+          <div id="investinic" class="cursos">
+            <div id="imageminvest" class="imagemcurso">
+              <img src="imagens/ilustra-poupando.png" class="imagemcurso-img" alt="Curso Investimento"></img>
+            </div>
+            <h3>Investimento para iniciantes</h3>
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            </p>
+            <a id="btnentrarcurso1" href="curso_invest.html"><button class="btncomecaragora" role="button">começar agora</button></a>
           </div>
-          <h3>Investimento para iniciantes</h3>
-          <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-          </p>
-          <a id="btnentrarcurso1" href="curso_invest.html"><button class="btncomecaragora">começar agora</button></a>
-        </div>
-        <div id="pouprend" class="cursos">
-          <div id="imageminvest" class="imagemcurso">
-            <img src="imagens/ilustra-investimento.png" class="imagemcurso-img" alt="Poupando"></img>
+          <div id="pouprend" class="cursos">
+            <div id="imageminvest" class="imagemcurso">
+              <img src="imagens/ilustra-investimento.png" class="imagemcurso-img" alt="Curso Poupando e Rendendo"></img>
+            </div>
+            <h3>Poupando e Rendendo</h3>
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            </p>
+            <a id="btnentrarcurso2" href="curso_poup.html"><button class="btncomecaragora" role="button">começar agora</button></a>
           </div>
-          <h3>Poupando e Rendendo</h3>
-          <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-          </p>
-          <a id="btnentrarcurso2" href="curso_poup.html"><button class="btncomecaragora">começar agora</button></a>
-        </div>
-        <div id="indfinan" class="cursos">
-          <div id="imageminvest" class="imagemcurso">
-            <img src="imagens/ilustra-independencia.png" class="imagemcurso-img" alt="Independencia"></img>
+          <div id="indfinan" class="cursos">
+            <div id="imageminvest" class="imagemcurso">
+              <img src="imagens/ilustra-independencia.png" class="imagemcurso-img" alt="Curso Independencia Financeira"></img>
+            </div>
+            <h3>Independencia Financeira</h3>
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            </p>
+            <a id="btnentrarcurso3" href="curso_indfin.html"><button class="btncomecaragora"role="button">começar agora</button></a>
           </div>
-          <h3>Independencia Financeira</h3>
-          <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-          </p>
-          <a id="btnentrarcurso3" href="curso_indfin.html"><button class="btncomecaragora">começar agora</button></a>
         </div>
       </div>
-    </div>
-
+    </section>
 
   </main>
 
+<!-- Trecho referente a acessibilidade em Libras -->
   <div vw class="enabled">
     <div vw-access-button class="active"></div>
     <div vw-plugin-wrapper>
@@ -152,6 +156,7 @@
   <script>
     new window.VLibras.Widget('https://vlibras.gov.br/app');
   </script>
+<!---->
 
   <footer>
     <div id="logof" class="logof">
