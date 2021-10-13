@@ -111,9 +111,9 @@ a {
 
 
 
-  .dindin2--XADREZ,
+  .dindin2--AULA1,
   .dindin2--AULA2,
-  .dindin2--AULA3 {
+  .dindin2--TROFEU {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -121,17 +121,17 @@ a {
   }
 
   @media (max-width: 960px) {
-    .dindin2--XADREZ,
+    .dindin2--AULA1,
     .dindin2--AULA2,
-    .dindin2--AULA3 {
+    .dindin2--TROFEU {
       display: block;
       height: auto;
     }
   }
 
-  .dindin2--XADREZ__img,
+  .dindin2--AULA1__img,
   .dindin2--AULA2__img,
-  .dindin2--AULA3__img {
+  .dindin2--TROFEU__img {
     max-height: 100%;
     width: 100%;
     height: 100%;
@@ -143,9 +143,9 @@ a {
   
 
   @media (max-width: 960px) {
-    .dindin2--XADREZ__img,
+    .dindin2--AULA1__img,
     .dindin2--AULA2__img,
-    .dindin2--AULA3__img {
+    .dindin2--TROFEU__img {
       max-height: auto;
     }
   }
