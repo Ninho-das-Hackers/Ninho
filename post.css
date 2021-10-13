@@ -4,7 +4,7 @@
   padding: 0;
 }
 
-.container1{
+#container1{
   display: flex;
   justify-content: center;
 }
@@ -16,7 +16,7 @@
   height: 1965px;
 }
 
-#postagens h1{
+#postagem1 h1{
   color: #FF4081;
   text-align: center;
   font-style: normal;
@@ -41,7 +41,7 @@ h5{
   margin-top: 74px;
 }
 
-#blocotxt{
+.blocotxt{
   margin-top: 64px;
 }
 
@@ -233,7 +233,7 @@ h3{
     position:relative;
   }
 
-  #postagens h1,.nossoscursos h1{
+  #postagem1 h1,.nossoscursos h1{
     font-size: 45px;
   }
 
@@ -265,7 +265,7 @@ h3{
 
 @media only screen and (max-width: 450px){
 
-  #postagens h1{
+  #postagem1 h1{
     font-size: 40px;
     margin-top: 60px;
   }
